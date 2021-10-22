@@ -12,7 +12,7 @@ describe('POM implementation',()=>{
         homeSaucePage.typeUserName('standard_user');
         homeSaucePage.typePassword('secret_sauce');
         homeSaucePage.clickLogin();
-        inventoryPage.elements.titleSpan().should('have.text','Products')
+        inventoryPage.elements.titleSpan().should('have.text','Test')
     });
 
     it('should display locked out message ',()=>{
